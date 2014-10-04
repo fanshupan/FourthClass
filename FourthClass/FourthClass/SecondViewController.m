@@ -32,6 +32,8 @@
     [self.view addSubview:mylabel];
     
     
+    self.navigationItem.title = self.title;
+    
     
     
     
