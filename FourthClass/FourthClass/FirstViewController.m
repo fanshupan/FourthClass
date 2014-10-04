@@ -30,6 +30,7 @@
     UILabel *mylabel=[[UILabel alloc]initWithFrame:CGRectMake(30, 200, 200, 200)];
     mylabel.textColor=[UIColor redColor];
     mylabel.text=@"This is the first viewController";
+    mylabel.textAlignment= NSTextAlignmentRight;
     [self.view addSubview:mylabel];
     
     

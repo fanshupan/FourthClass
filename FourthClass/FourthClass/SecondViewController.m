@@ -28,12 +28,15 @@
     [super viewDidLoad];
     UILabel *mylabel=[[UILabel alloc]initWithFrame:CGRectMake(00, 50, 200, 200)];
     mylabel.textColor=[UIColor redColor];
-    mylabel.text=@"This is the second viewController";
+    mylabel.backgroundColor = [UIColor grayColor];
+    mylabel.text=@"This is thr";
+    mylabel.textAlignment = NSTextAlignmentCenter;
+    
     [self.view addSubview:mylabel];
     
     
-    self.navigationItem.title = self.title;
-    
+    self.navigationItem.title = self.title1;
+    NSLog(@"my int %d",self.myint);
     
     
     

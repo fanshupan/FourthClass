@@ -117,6 +117,9 @@
     else if (tempBtn.tag == 1)
     {
         SecondViewController *second=[[SecondViewController alloc]init];
+        second.title1 = @"second title";
+        second.myint = 1;
+
         [self.navigationController pushViewController:second animated:YES];
         }
     else if (tempBtn.tag == 2)
@@ -131,8 +134,9 @@
 -(void)pushto1
 {
     SecondViewController *second=[[SecondViewController alloc]init];
+    second.title1 = @"second title";
+
     [self.navigationController pushViewController:second animated:YES];
-    second.title = @"second title";
     
 }
 -(void)pushto2

@@ -10,6 +10,6 @@
 
 @interface SecondViewController : UIViewController
 
-@property (nonatomic,copy) NSString *title;
-
+@property (nonatomic,copy) NSString *title1;
+@property (nonatomic,assign) int myint;
 @end
